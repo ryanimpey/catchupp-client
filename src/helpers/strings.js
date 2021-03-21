@@ -1,0 +1,7 @@
+export const booking_details_intro = `Introduce yourself to your host, maybe let them know why you're visiting! You can write as much or as little as you want, but a good introduction will go a long way to making a host feel comfortable about your visit!`;
+export const host_inbox_string = `Your host inbox allows you to respond to any guests that have booked to rent one of your listings. To switch back to your guest inbox, Press the button in the top left corner.`;
+export const guest_inbox_string = `Your guest inbox allows you to contact a host for a booking you have made. You can ask any questions about your upcoming trip here.`;
+export const trip_empty_string = `We currently have no trips to show you. Any future trips that you book will appear here.`;
+export const inbox_empty_string = `We currently have no messages to show you. To start a conversation, enquire with a host or make a booking.`
+export const why_country_string = `In order to provide you with language translations and our payment services, we need to know the country a user is located in to allocate you to the correct platform. We are also required by our insurance providers to collect this information for security purposes.`
+export const no_items_found_string = `Sorry! We've found nothing in this area, try modifying your search parameters and searching again`;

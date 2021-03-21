@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "catchupp-expo",
+    "slug": "catchupp-expo",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "android": {
+      "useNextNotificationsApi": true
+    },
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./src/static/icon-alt.png",
+    "splash": {
+      "image": "./src/static/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A3058"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "src/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.elementsoftworks.catchupp2",
+      "buildNumber": "2"
+    },
+    "description": "",
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "jsx",
+        "svg",
+        "ts",
+        "tsx"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '13.3'
+
+target 'test' do
+  pod 'ExpoKit',
+    :git => "http://github.com/expo/expo.git",
+    :tag => "ios/2.13",
+    :subspecs => [
+      "Core"
+    ],
+    :inhibit_warnings => true
+  pod 'RNDateTimePicker', :path => '../node_modules/@react-native-community/datetimepicker/RNDateTimePicker.podspec'
